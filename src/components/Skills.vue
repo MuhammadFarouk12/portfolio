@@ -49,8 +49,7 @@ const categories = [
     icon: 'code',
     skills: [
       'Prompt Engineering', 'RAG Systems', 'MCPs',
-      'AI Agents', 'Code Review', 'Python',
-      'Architecture Design', 'Technical Writing',
+      'AI Agents', 'Code Review'
     ],
   },
 ]

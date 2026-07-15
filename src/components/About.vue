@@ -20,13 +20,12 @@ const highlights = [
             A professional full stack web developer with experience building modern web applications.
             I specialize in creating high-performance, secure, and scalable systems using
             <span class="accent-text">Laravel</span>, <span class="accent-text">Vue</span>,
-            <span class="accent-text">Node.js</span>, and integrating
+            and integrating
             <span class="accent-text">AI-powered solutions</span> into production workflows.
           </p>
           <p class="about-text">
-            Currently pursuing my Bachelor's in Computer Science with a 4.0 GPA, while actively
-            contributing to the tech community through teaching web development and building
-            open-source projects.
+            Currently pursuing my Bachelor's in Computer Science, while actively
+            contributing to the tech community through teaching web development and writing tech-content
           </p>
 
           <div class="about-quick">
@@ -37,10 +36,6 @@ const highlights = [
             <div class="quick-item">
               <span class="quick-label">Focus</span>
               <span class="quick-value">Full Stack & AI</span>
-            </div>
-            <div class="quick-item">
-              <span class="quick-label">Experience</span>
-              <span class="quick-value">2+ Years</span>
             </div>
           </div>
         </div>
