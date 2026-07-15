@@ -173,7 +173,6 @@ const education = [
   padding: 10px 14px;
   background: var(--accent-bg);
   border-radius: 8px;
-  border-left: 2px solid var(--accent);
 }
 
 @media (max-width: 1024px) {

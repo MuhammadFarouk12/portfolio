@@ -3,14 +3,14 @@ const projects = [
 	{
 		name: "NFCQC",
 		description: "Manufacuring Managemtnt System",
-		tech: ["Vue", "PHP", "Laravel", "Typescript"],
+		tech: ["Vue", "MySQL", "Laravel", "Typescript"],
 		featured: true,
 		private: true,
 	},
   {
 		name: "Sirius",
 		description: "Online English Instituition Management System",
-		tech: ["Vue", "PHP", "Laravel", "Typescript"],
+		tech: ["Vue", "SQLite", "Laravel", "Typescript"],
 		featured: true,
 		private: true,
 	},

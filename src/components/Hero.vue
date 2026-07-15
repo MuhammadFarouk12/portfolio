@@ -9,10 +9,10 @@ const links = [
   <section class="hero">
     <div class="container">
       <div class="hero-content fade-in">
-        <!-- <div class="status">
+        <div class="status">
           <span class="status-dot"></span>
           <span class="status-text">Available for work</span>
-        </div> -->
+        </div>
 
         <h1 class="hero-name">
           <span class="greeting">Hello, I'm</span>
@@ -46,7 +46,7 @@ const links = [
             <span class="stat-label">Repos</span>
           </div>
           <div class="stat">
-            <span class="stat-value">100</span>
+            <span class="stat-value">+95</span>
             <span class="stat-label">Followers</span>
           </div>
         </div>
