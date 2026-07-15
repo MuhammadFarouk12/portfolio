@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import MatrixIcon from './MatrixIcon.vue'
 // test
 const highlights = [
@@ -165,4 +165,4 @@ const highlights = [
     gap: 16px;
   }
 }
-</style>
+</style> -->
