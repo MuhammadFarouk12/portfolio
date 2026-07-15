@@ -101,13 +101,13 @@ const contactMethods = [
               <span class="string">availability.txt</span>
             </div>
             <div class="terminal-line output">
-              ✓ Open for freelance work
+              <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Open for freelance work
             </div>
             <div class="terminal-line output">
-              ✓ Open for collaboration
+              <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Open for collaboration
             </div>
             <div class="terminal-line output">
-              ✓ Open to full-time opportunities
+              <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Open to full-time opportunities
             </div>
             <br />
             <div class="terminal-line">
@@ -258,6 +258,14 @@ const contactMethods = [
 .output {
   color: var(--text-secondary);
   padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.check-icon {
+  color: var(--accent);
+  flex-shrink: 0;
 }
 
 .cursor {

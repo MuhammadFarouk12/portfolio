@@ -1,9 +1,11 @@
 <script setup>
+import MatrixIcon from './MatrixIcon.vue'
+
 const highlights = [
-  { icon: '⚡', label: 'Performance', text: 'High-performance web applications' },
-  { icon: '🔒', label: 'Security', text: 'OWASP Top 10 & best practices' },
-  { icon: '🤖', label: 'AI Integration', text: 'RAG systems & AI workflows' },
-  { icon: '📐', label: 'Architecture', text: 'Scalable, clean system design' },
+  { icon: 'bolt', label: 'Performance', text: 'High-performance web applications' },
+  { icon: 'lock', label: 'Security', text: 'OWASP Top 10 & best practices' },
+  { icon: 'brain', label: 'AI Integration', text: 'RAG systems & AI workflows' },
+  { icon: 'layout', label: 'Architecture', text: 'Scalable, clean system design' },
 ]
 </script>
 
@@ -49,7 +51,7 @@ const highlights = [
             :key="item.label"
             class="highlight-card"
           >
-            <span class="highlight-icon">{{ item.icon }}</span>
+            <span class="highlight-icon"><MatrixIcon :name="item.icon" :size="22" /></span>
             <div>
               <span class="highlight-label">{{ item.label }}</span>
               <span class="highlight-text">{{ item.text }}</span>
@@ -133,7 +135,6 @@ const highlights = [
 }
 
 .highlight-icon {
-  font-size: 24px;
   flex-shrink: 0;
   width: 44px;
   height: 44px;

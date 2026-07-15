@@ -1,8 +1,10 @@
 <script setup>
+import MatrixIcon from './MatrixIcon.vue'
+
 const categories = [
   {
     title: 'Frontend',
-    icon: '🎨',
+    icon: 'palette',
     skills: [
       'HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript',
       'Vue.js', 'React', 'Next.js', 'Tailwind CSS',
@@ -11,7 +13,7 @@ const categories = [
   },
   {
     title: 'Backend',
-    icon: '⚙️',
+    icon: 'gear',
     skills: [
       'Laravel', 'Node.js', 'Express.js', 'RESTful APIs',
       'JWT Auth', 'Session-Based Auth', 'Web Sockets',
@@ -20,7 +22,7 @@ const categories = [
   },
   {
     title: 'Database',
-    icon: '🗄️',
+    icon: 'database',
     skills: [
       'MySQL', 'PostgreSQL', 'MongoDB',
       'Database Normalization', 'Query Optimization',
@@ -28,7 +30,7 @@ const categories = [
   },
   {
     title: 'DevOps & Tools',
-    icon: '🔧',
+    icon: 'wrench',
     skills: [
       'Git & GitHub', 'Docker', 'Linux', 'Nginx',
       'CI/CD', 'Ubuntu', 'Debian', 'Cron Jobs',
@@ -36,7 +38,7 @@ const categories = [
   },
   {
     title: 'Security',
-    icon: '🛡️',
+    icon: 'shield',
     skills: [
       'OWASP Top 10', 'SQL Injection', 'XSS', 'CSRF',
       'Hashing & Encryption', 'RBAC', 'PBAC',
@@ -44,7 +46,7 @@ const categories = [
   },
   {
     title: 'AI & Engineering',
-    icon: '🤖',
+    icon: 'code',
     skills: [
       'Prompt Engineering', 'RAG Systems', 'MCPs',
       'AI Agents', 'Code Review', 'Python',
@@ -68,7 +70,7 @@ const categories = [
           :style="{ animationDelay: `${i * 0.08}s` }"
         >
           <div class="cat-header">
-            <span class="cat-icon">{{ cat.icon }}</span>
+            <span class="cat-icon"><MatrixIcon :name="cat.icon" :size="20" /></span>
             <h3 class="cat-title">{{ cat.title }}</h3>
           </div>
           <div class="cat-skills">
